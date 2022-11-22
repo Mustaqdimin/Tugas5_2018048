@@ -38,7 +38,11 @@ public class MainActivity2 extends AppCompatActivity {
                 }else if (id == R.id.nav_store){
                     Intent a = new Intent(MainActivity2.this, MainActivity3.class);
                     startActivity(a);
-                }
+
+            }else if (id == R.id.nav_alarm){
+                Intent a = new Intent(MainActivity2.this, MainActivity3.class);
+                startActivity(a);
+            }
                 return true;
             }
         });

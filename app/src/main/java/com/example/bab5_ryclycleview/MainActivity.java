@@ -60,7 +60,10 @@ public class MainActivity extends AppCompatActivity {
                 } else if (id == R.id.nav_store) {
                     Intent a = new Intent(MainActivity.this, MainActivity3.class);
                     startActivity(a);
-                }
+            }else if (id == R.id.nav_alarm){
+                Intent a = new Intent(MainActivity.this, MainActivity3.class);
+                startActivity(a);
+            }
                 return true;
             }
         });
